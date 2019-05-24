@@ -8,6 +8,7 @@ import { ListItemComponent } from './list-item/list-item.component';
 import { ListService } from './list.service';
 import { ListEditComponent } from './list-edit/list-edit.component';
 import { ListStartComponent } from './list-start/list-start.component';
+import { ItemsComponent } from './items/items.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ListStartComponent } from './list-start/list-start.component';
     ListComponent,
     ListItemComponent,
     ListEditComponent,
-    ListStartComponent
+    ListStartComponent,
+    ItemsComponent
   ],
   imports: [
     BrowserModule,
