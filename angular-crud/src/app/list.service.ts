@@ -14,4 +14,12 @@ export class ListService {
   getItems(){
     return this.items.slice();
   }
+
+  addItem(item: Item){
+    this.items.push(item);
+  }
+
+  updateItem(index: number, item: Item){
+    this.items[index] = item;
+  }
 }
