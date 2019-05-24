@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ListComponent } from './list/list.component';
 import { ListItemComponent } from './list-item/list-item.component';
 import { ListService } from './list.service';
+import { ListEditComponent } from './list-edit/list-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
-    ListItemComponent
+    ListItemComponent,
+    ListEditComponent
   ],
   imports: [
     BrowserModule,
