@@ -11,6 +11,7 @@ import { ListEditComponent } from './list-edit/list-edit.component';
 import { ListStartComponent } from './list-start/list-start.component';
 import { ItemsComponent } from './items/items.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ItemDetailsComponent } from './item-details/item-details.component';
     ListEditComponent,
     ListStartComponent,
     ItemsComponent,
-    ItemDetailsComponent
+    ItemDetailsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
