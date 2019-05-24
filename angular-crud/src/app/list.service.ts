@@ -10,4 +10,8 @@ export class ListService {
 
   ]
   constructor() { }
+
+  getItems(){
+    return this.items.slice();
+  }
 }
