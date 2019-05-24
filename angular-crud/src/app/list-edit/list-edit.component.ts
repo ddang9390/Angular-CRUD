@@ -48,7 +48,7 @@ export class ListEditComponent implements OnInit {
     this.listForm = new FormGroup({
       'name': new FormControl(itemName, Validators.required),
 
-      'description': new FormControl(itemDescription, Validators.required),
+      'desc': new FormControl(itemDescription, Validators.required),
 
     })
   }
