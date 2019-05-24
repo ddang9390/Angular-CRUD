@@ -36,11 +36,7 @@ export class ListEditComponent implements OnInit {
     if(this.editMode){
       const item = this.listService.getItem(this.id);
       itemName = item.name;
-
       itemDescription = item.desc;
-
-    
-      
     }
     else{
 

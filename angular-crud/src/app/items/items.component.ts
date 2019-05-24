@@ -3,7 +3,6 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { ListService } from '../list.service';
 import { Item } from '../item';
 import { Subscription } from 'rxjs';
-import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-items',
