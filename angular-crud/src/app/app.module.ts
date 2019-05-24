@@ -13,6 +13,7 @@ import { ListStartComponent } from './list-start/list-start.component';
 import { ItemsComponent } from './items/items.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
 import { HeaderComponent } from './header/header.component';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { HeaderComponent } from './header/header.component';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [ListService],
+  providers: [ListService, DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

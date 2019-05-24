@@ -1,8 +1,7 @@
 import { Injectable, OnInit } from '@angular/core';
 import { Item } from './item';
 import { Subject } from 'rxjs';
-import { DataService } from './data.service';
-import { Config } from 'protractor';
+
 
 @Injectable({
   providedIn: 'root'
