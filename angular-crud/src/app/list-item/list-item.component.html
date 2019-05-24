@@ -1,12 +1,10 @@
-<div class="row">
-  <div class="col-xs-12">
-    {{item.name}}
+<a 
+  style="cursor:pointer"
+  [routerLink] = "[id]"
+  routerLinkActive="active"
+  class="list-group-item clearfix">
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{item.name}}</h4>
+    <p class="list-group-item-text">{{item.desc}}</p>
   </div>
-  
-</div>
-
-<div class="row">
-  <div class="col-xs-12">
-      {{item.desc}}
-  </div>
-</div>
+</a>

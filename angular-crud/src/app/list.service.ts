@@ -26,4 +26,8 @@ export class ListService {
   updateItem(index: number, item: Item){
     this.items[index] = item;
   }
+
+  deleteItem(index: number){
+    this.items.splice(index,1);
+  }
 }

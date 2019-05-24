@@ -2,6 +2,8 @@
   <div class="col-xs-12">
     <button class="btn btn-success" (click)="addItem()">Add Item</button>
     <hr>
-    <app-list-item *ngFor="let item of items" [item]="item"></app-list-item>
+    <app-list-item *ngFor="let item of items; let i = index"
+                    [item]="item"
+                    [id]="i"></app-list-item>
   </div>
 </div>
