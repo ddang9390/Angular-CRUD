@@ -7,13 +7,15 @@ import { ListComponent } from './list/list.component';
 import { ListItemComponent } from './list-item/list-item.component';
 import { ListService } from './list.service';
 import { ListEditComponent } from './list-edit/list-edit.component';
+import { ListStartComponent } from './list-start/list-start.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListComponent,
     ListItemComponent,
-    ListEditComponent
+    ListEditComponent,
+    ListStartComponent
   ],
   imports: [
     BrowserModule,
