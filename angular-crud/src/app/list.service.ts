@@ -15,6 +15,10 @@ export class ListService {
     return this.items.slice();
   }
 
+  getItem(id: number){
+    return this.items[id];
+  }
+
   addItem(item: Item){
     this.items.push(item);
   }
