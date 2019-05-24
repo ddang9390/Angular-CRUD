@@ -1,7 +1,9 @@
-[
-  {
-    "id": 1,
-    "name": "test",
-    "desc": "this is a test"
-  }
-]
+{
+  "items": [
+    {
+      "id": 0,
+      "name": "test",
+      "desc":"this is a test"
+    }
+  ]
+}
